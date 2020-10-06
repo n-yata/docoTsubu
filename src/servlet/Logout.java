@@ -18,7 +18,7 @@ public class Logout extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     /** フォワード先 */
-    private final String FW_URL = "/WEB-INF/jsp/logout.jsp";
+    private final String FW_URL = "/resources/html/logout.html";
 
     /**
      * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse
